@@ -1,6 +1,10 @@
 # Compiled class file
 *.class
 
+# Javascript/NPM/ReactJS
+node_modules
+build
+
 # Log file
 *.log
 
