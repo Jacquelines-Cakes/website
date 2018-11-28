@@ -44,7 +44,7 @@ a:link {
 }
 
 .welcome-text {
-  font-size: 68px;
+  font-size: 60px;
 }
 
 .about-text {
@@ -69,8 +69,26 @@ a:link {
   font-size: 52px;
 }
 
-.price-disclaimer {
+#price-disclaimer {
   font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+}
+.landingPhoto {
+  border-radius: 25px;
+  border: 8px solid white;
+  margin: 10px;
+  padding: 0;
+}
+.contact-method {
+  font-family: 'Oswald', sans-serif;
+}
+
+.icon {
+  height: 80px;
+}
+
+.priceItem-title {
+  text-decoration: underline;
 }
 
 @media (max-width: 600px)  {
