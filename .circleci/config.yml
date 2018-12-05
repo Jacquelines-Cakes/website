@@ -87,29 +87,29 @@ jobs:
        - run:
            name: Deploy to Firebase
            command: ./node_modules/.bin/firebase deploy --only hosting --token=$FIREBASE_DEPLOY_TOKEN
- deploy-prod:
-    docker:
-      - image: circleci/node:8.0
-    working_directory: ~/website
-    steps:
-      - run:
-         name: "Checking Versions"
-         command: |
-           node --version
-           npm --version
-      - checkout
-      - restore_cache:
-         keys:
-           - node-8-cache-{{ arch }}-{{ .Branch }}-npm-{{ checksum "package.json" }}
-      - restore_cache:
-         keys:
-           - dist-cache-{{ arch }}-{{ .Branch }}-
-      - run:
-          name: Use Prod
-          command: ./node_modules/.bin/firebase use prod --token=$FIREBASE_DEPLOY_TOKEN
-      - run:
-          name: Deploy to Firebase
-          command: ./node_modules/.bin/firebase deploy --only hosting --token=$FIREBASE_DEPLOY_TOKEN
+  deploy-prod:
+      docker:
+        - image: circleci/node:8.0
+      working_directory: ~/website
+      steps:
+        - run:
+            name: "Checking Versions"
+            command: |
+              node --version
+              npm --version
+        - checkout
+        - restore_cache:
+            keys:
+              - node-8-cache-{{ arch }}-{{ .Branch }}-npm-{{ checksum "package.json" }}
+        - restore_cache:
+            keys:
+              - dist-cache-{{ arch }}-{{ .Branch }}-
+        - run:
+            name: Use Prod
+            command: ./node_modules/.bin/firebase use prod --token=$FIREBASE_DEPLOY_TOKEN
+        - run:
+            name: Deploy to Firebase
+            command: ./node_modules/.bin/firebase deploy --only hosting --token=$FIREBASE_DEPLOY_TOKEN
 workflows:
   version: 2
 
