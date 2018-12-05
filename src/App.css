@@ -3,7 +3,7 @@
 body {
   text-align: center;
   font-family: 'Oswald', sans-serif;
-  background-color: #ffc9c9;
+  background-color: #FFF5F5;
 }
 
 img {
@@ -25,7 +25,7 @@ a:link {
   height: auto;
   width: 100%auto;
   padding: 10px;
-  background-color: #BFD8D2;
+  background-color: #FFF5F5;
 }
 
 .navbar {
@@ -35,7 +35,7 @@ a:link {
 
 .jumbotron {
   font-family: 'Sacramento', cursive;
-  background-color: #BFD8D2;
+  background-color: #FFFFFF;
   border: 1px solid black;
 }
 
