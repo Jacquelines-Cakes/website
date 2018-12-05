@@ -85,10 +85,10 @@ jobs:
               - dist-cache-{{ arch }}-{{ .Branch }}-
         - run:
             name: Use Prod
-            command: ./node_modules/.bin/firebase use prod --token=$FIREBASE_DEPLOY_TOKEN
+            command: /usr/local/bin/firebase use prod --token=$FIREBASE_DEPLOY_TOKEN
         - run:
             name: Deploy to Firebase
-            command: ./node_modules/.bin/firebase deploy --only hosting --token=$FIREBASE_DEPLOY_TOKEN
+            command: /usr/local/bin/firebase deploy --only hosting --token=$FIREBASE_DEPLOY_TOKEN
 workflows:
   version: 2
 
