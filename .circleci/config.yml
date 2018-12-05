@@ -104,15 +104,8 @@ workflows:
           filters:
             branches:
               only:
-                - dev
                 - master
-      - deploy-dev:
-          requires:
-            - build-job
-          filters:
-            branches:
-              only: dev
-      - deploy-prod:
+      - deploy:
           requires:
             - build-job
           filters:
