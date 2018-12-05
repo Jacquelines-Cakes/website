@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Sacramento');
+
+body {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  background-color: #FFF5F5;
+}
+
+img {
+  margin: 0 auto;
+}
+
+.title {
+  font-family: 'Sacramento', cursive;
+  font-size: 70px;
+  color: black;
+  text-align: left;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.hero-wrapper {
+  height: auto;
+  width: 100%auto;
+  padding: 10px;
+  background-color: #FFF5F5;
+}
+
+.navbar {
+  background: white;
+  font-size: 20px;
+}
+
+.jumbotron {
+  font-family: 'Sacramento', cursive;
+  background-color: #FFFFFF;
+  border: 1px solid black;
+}
+
+.home-jumbo {
+  border-radius: 8px;
+}
+
+.welcome-text {
+  font-size: 60px;
+}
+
+.about-text {
+  font-size: 100px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+.menu-item {
+  font-size: 42px;
+}
+
+.menuItem-title {
+  text-decoration: underline;
+}
+
+.menu-tag {
+  font-family: 'Oswald', sans-serif;
+}
+
+.contact-text {
+  font-size: 52px;
+}
+
+#price-disclaimer {
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+}
+.landingPhoto {
+  border-radius: 25px;
+  border: 8px solid white;
+  margin: 10px;
+  padding: 0;
+}
+.contact-method {
+  font-family: 'Oswald', sans-serif;
+}
+
+.icon {
+  height: 80px;
+}
+
+.priceItem-title {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px)  {
+  .welcome-text, .title {
+    font-size: 46px;
+  }
+}
