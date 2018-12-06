@@ -35,8 +35,9 @@ a:link {
 
 .jumbotron {
   font-family: 'Sacramento', cursive;
-  background-color: #FFFFFF;
-  border: 1px solid black;
+  background-color: #FFF5F5;
+  border: 0px solid black;
+  margin: 20px;
 }
 
 .home-jumbo {
@@ -44,7 +45,8 @@ a:link {
 }
 
 .welcome-text {
-  font-size: 60px;
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
 }
 
 .about-text {
@@ -73,18 +75,24 @@ a:link {
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
 }
+
 .landingPhoto {
   border-radius: 25px;
   border: 8px solid white;
-  margin: 10px;
+  margin: 0px;
   padding: 0;
 }
+
 .contact-method {
   font-family: 'Oswald', sans-serif;
 }
 
 .icon {
   height: 80px;
+}
+
+.decor {
+    top: 50%;
 }
 
 .priceItem-title {
