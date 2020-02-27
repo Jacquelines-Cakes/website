@@ -1,98 +1,207 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Sacramento|Satisfy');
+
+.MarginTests {
+  border: 1px solid red;
+}
+
+a:link {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+img {
+  margin: 0px auto;
+}
 
 body {
   text-align: center;
   font-family: 'Oswald', sans-serif;
-  background-color: #FFF5F5;
+  background-color: #FFFFFF;
 }
 
-img {
-  margin: 0 auto;
+
+.Jumbotron-Global-Settings {
+  border-radius: 8px;
+  font-family: 'Oswald', sans-serif;
+  background-color: #FFFFFF;
+  max-width: 1050px;
 }
 
-.title {
-  font-family: 'Sacramento', cursive;
-  font-size: 70px;
+
+.Home-Text {
+  font-size: 40px;
+  font-family: 'Satisfy', sans-serif;
+}
+
+.Home-Image {
+  border-radius: 20px;
+  padding: 0px;
+  margin-top: 40px;
+  border: 1px solid #FFFBFB;
+}
+
+.GlobalHeader-Wrapper {
+  padding: 10px;
+  border-bottom: dotted 1px #DDD9D9;
+  display: flex;
+  flex-direction: row;
+}
+
+.GlobalHeader-Icon {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.GlobalHeader-Title {
+  font-family: 'Satisfy', sans-serif;
+  font-size: 60px;
   color: black;
   text-align: left;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-a:link {
-  text-decoration: none;
-}
 
-.hero-wrapper {
-  height: auto;
-  width: 100%auto;
-  padding: 10px;
-  background-color: #FFF5F5;
-}
 
-.navbar {
-  background: white;
+.GlobalNavbar {
   font-size: 20px;
-}
-
-.jumbotron {
-  font-family: 'Sacramento', cursive;
   background-color: #FFFFFF;
-  border: 1px solid black;
 }
 
-.home-jumbo {
-  border-radius: 8px;
+.GlobalNavbar-Collapse {
+  background-color: #FFFFFF;
 }
 
-.welcome-text {
-  font-size: 60px;
+.GlobalNavbar-Nav {
+  background-color: #FFFFFF;
 }
 
-.about-text {
-  font-size: 100px;
-  font-family: 'Oswald', sans-serif;
+.GlobalNavbar-Link {
+  background-color: #FFFFFF;
+}
+
+
+.About-Header {
+  margin-top: -30px;
+  margin-bottom: 30px;
+  font-family: 'Satisfy', sans-serif;
+  font-size: 50px;
   text-align: center;
 }
 
-.menu-item {
-  font-size: 42px;
-}
-
-.menuItem-title {
-  text-decoration: underline;
-}
-
-.menu-tag {
-  font-family: 'Oswald', sans-serif;
-}
-
-.contact-text {
-  font-size: 52px;
-}
-
-#price-disclaimer {
-  font-family: 'Oswald', sans-serif;
-  font-size: 14px;
-}
-.landingPhoto {
+.About-Photo {
+  float: left;
+  width: 40%;
   border-radius: 25px;
+  margin-right: 20px;
   border: 8px solid white;
-  margin: 10px;
-  padding: 0;
 }
-.contact-method {
+
+.About {
+  font-size: 20px;
   font-family: 'Oswald', sans-serif;
+  text-align: justify;
 }
 
-.icon {
-  height: 80px;
+
+.Menu-Header {
+  margin-top: -30px;
+  margin-bottom: 30px;
+  font-family: 'Satisfy', light, serif;
+  font-size: 50px;
 }
 
-.priceItem-title {
-  text-decoration: underline;
+.Menu-Category-Header {
+  font-family: 'Satisfy', light, serif;
+  font-size: 30px;
 }
 
-@media (max-width: 600px)  {
-  .welcome-text, .title {
-    font-size: 46px;
-  }
+.Menu-Item-Description {
+  font-family: 'Satisfy', light, serif;
+  font-size: 25px;
+  text-align: left;
+  margin-left: 40px;
+  color: #555555;
+}
+
+.Menu-Wrapper {
+  margin: 40px;
+}
+
+.Menu-Titles {
+  font-family: 'Satisfy', light, serif;
+  font-size: 40px;
+}
+
+.Specialty-Menu-Items {
+  font-family: 'Oswald', light, serif;
+  font-size: 25px;
+  text-align: left;
+}
+
+.Menu-Items {
+  font-family: 'Oswald', light, serif;
+  font-size: 25px;
+}
+
+.Menu-Tag {
+  margin-top: 50px;
+  margin-bottom: -30px;
+  font-family: 'Satisfy', light, serif;
+  font-size: 30px;
+}
+
+
+.Prices-Header {
+  margin-top: -30px;
+  margin-bottom: 50px;
+  font-family: 'Satisfy', light, serif;
+  font-size: 50px;
+}
+
+.Prices-Wrapper {
+  margin: 40px;
+}
+
+.Prices-Titles {
+  font-family: 'Satisfy', light, serif;
+  font-size: 40px;
+}
+
+.Prices-Items {
+  font-family: 'Oswald', light, serif;
+  font-size: 25px;
+}
+
+.Prices-Tag {
+  margin-top: 50px;
+  margin-bottom: -30px;
+  font-family: 'Satisfy', light, serif;
+  font-size: 25px;
+}
+
+
+.Contact-Header {
+  margin-top: -30px;
+  font-family: 'Satisfy', light, serif;
+  font-size: 50px;
+}
+
+.Contact-Text {
+  font-family: 'Oswald', light, serif;
+  font-size: 25px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.Contact-Footer {
+  font-family: 'Oswald', light, serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.Contact-Icon {
+  height: 40px;
 }

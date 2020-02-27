@@ -4,33 +4,15 @@ import { Jumbotron } from 'react-bootstrap';
 export default class Home extends Component {
     render() {
         return (
-            <div>
-                <div className="row">
-                    <div className="col-xs-4">
+            <div className="row justify-content-center">
+                <Jumbotron className="Jumbotron-Global-Settings">
+                    <div className="row justify-content-center">
+                        <h3 className="Home-Text">Creating beautiful cakes from my home for your unique occasion</h3>
                     </div>
-                    <div>
-                        <img className="landingPhoto col-xs-4" src={require("./images/landingPhoto.jpg")} alt="3 tier cake"/>
+                    <div className="row justify-content-center">
+                        <img className="Home-Image w-75 h-75" src={require("../images/landingPhoto.jpg")} alt="3 tier cake"/>
                     </div>
-                    <div className="col-xs-4">
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-xs-1">
-                    </div>
-                    <Jumbotron className="home-jumbo col-xs-10">
-                        <div className=" decor col-xs-1">
-                            <h1>~</h1>
-                        </div>
-                        <div className="col-xs-10">
-                            <h3 className="welcome-text">Creating beautiful cakes from my home for your unique occasion</h3>
-                        </div>
-                        <div className=" decor col-xs-1">
-                            <h1>~</h1>
-                        </div>
-                    </Jumbotron>
-                    <div className="col-xs-1">
-                    </div>
-                </div>
+                </Jumbotron>
             </div>
         );
     }

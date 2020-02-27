@@ -1,31 +1,33 @@
 import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Home from './components/Home';
-import Hero from './components/Hero';
-import CustomNavbar from './components/CustomNavbar';
+import GlobalNavbar from './components/GlobalNavbar';
 import About from './components/About';
+import Home from './components/Home';
 import Menu from './components/Menu';
-import Prices from './components/Prices';
-import Gallery from './components/Gallery';
-import Contact from './components/Contact';
+import GlobalHeader from './components/GlobalHeader';
+import Prices from "./components/Prices";
+import PhotoGallery from "./components/Gallery";
+import Contact from "./components/Contact";
+import ContactFooter from "./components/ContactFooter";
 
 
 class App extends Component {
   render() {
     return (
-      <Router>
-        <div>
-          <Hero />
-          <CustomNavbar />
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/menu" component={Menu} />
-          <Route path="/prices" component={Prices} />
-          <Route path="/gallery" component={Gallery} />
-          <Route path="/contact" component={Contact} />
-        </div>
-      </Router>
+        <Router>
+          <div>
+            <GlobalHeader />
+            <GlobalNavbar />
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/menu" component={Menu} />
+            <Route path="/prices" component={Prices} />
+            <Route path="/gallery" component={PhotoGallery} />
+            <Route path="/contact" component={Contact} />
+            <ContactFooter />
+          </div>
+        </Router>
     );
   }
 }
