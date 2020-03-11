@@ -12,21 +12,6 @@ export default class Menu extends Component {
                         </div>
                     </div>
                     <div className="col-12">
-                        <h2 className="Menu-Category-Header">Specialty Cakes (Starting at $24.00)</h2>
-                    </div>
-                    <div className="row justify-content-center">
-                        <div className="Menu-Wrapper col-12">
-                            <p className="Specialty-Menu-Items">S’mores Cake</p>
-                            <p className="Menu-Item-Description">Layers of chocolate cake, graham frosting and marshmallow crème filling, frosted in dark chocolate ganache and graham crumbs</p>
-                            <h2 className="Specialty-Menu-Items">Pink Champagne Cake</h2>
-                            <p className="Menu-Item-Description">Did someone say champagne? This festive champagne cake layered with smooth vanilla buttercream is the perfect showstopper dessert for a party!</p>
-                            <h2 className="Specialty-Menu-Items">Red Velvet Cake</h2>
-                            <p className="Menu-Item-Description">Dense and delicious, this tall beauty is layered with your choice of either red velvet buttercream or cream cheese frosting</p>
-                            <h2 className="Specialty-Menu-Items">Lemon Poppyseed Cake</h2>
-                            <p className="Menu-Item-Description">Layers of lemon poppyseed cake, fresh raspberry jam filling and lemon cream cheese frosting</p>
-                        </div>
-                    </div>
-                    <div className="col-12">
                         <h2 className="Menu-Category-Header">Custom Cakes (Starting at $20.00)</h2>
                     </div>
                     <div className="row justify-content-center">
@@ -66,6 +51,22 @@ export default class Menu extends Component {
                             <h2 className="Menu-Items">Lemon Cream Cheese Frosting</h2>
                         </div>
                     </div>
+                    <div className="col-12">
+                        <h2 className="Menu-Category-Header">Specialty Cakes (Starting at $24.00)</h2>
+                    </div>
+                    <div className="row justify-content-center">
+                        <div className="Menu-Wrapper col-8">
+                            <p className="Specialty-Menu-Items">S’mores Cake</p>
+                            <p className="Menu-Item-Description">Layers of chocolate cake, graham frosting and marshmallow crème filling, frosted in dark chocolate ganache and graham crumbs</p>
+                            <h2 className="Specialty-Menu-Items">Pink Champagne Cake</h2>
+                            <p className="Menu-Item-Description">Did someone say champagne? This festive champagne cake layered with smooth vanilla buttercream is the perfect showstopper dessert for a party!</p>
+                            <h2 className="Specialty-Menu-Items">Red Velvet Cake</h2>
+                            <p className="Menu-Item-Description">Dense and delicious, this tall beauty is layered with your choice of either red velvet buttercream or cream cheese frosting</p>
+                            <h2 className="Specialty-Menu-Items">Lemon Poppyseed Cake</h2>
+                            <p className="Menu-Item-Description">Layers of lemon poppyseed cake, fresh raspberry jam filling and lemon cream cheese frosting</p>
+                        </div>
+                    </div>
+
                     <div className="row justify-content-center">
                         <div className="col-12">
                             <h2 className="Menu-Tag">Decorated to your unique order. Let me help you design your dream cake!</h2>
