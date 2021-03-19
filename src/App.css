@@ -205,3 +205,32 @@ body {
 .Contact-Icon {
   height: 40px;
 }
+
+.Contact-Name{
+  margin-right: 5px;
+  font-family: 'Oswald', light, serif;
+  font-size: 25px;
+}
+
+.Contact-Name-Input{
+  margin-right: 5px;
+  font-family: 'Oswald', light, serif;
+  font-size: 20px;
+}
+
+.Contact-Email{
+  margin-right: 5px;
+  font-family: 'Oswald', light, serif;
+  font-size: 25px;
+}
+
+.Contact-Email-Input{
+  margin-right: 5px;
+  font-family: 'Oswald', light, serif;
+  font-size: 20px;
+}
+
+.Contact-Submit-Button{
+  font-family: 'Oswald', light, serif;
+  font-size: 20px;
+}
