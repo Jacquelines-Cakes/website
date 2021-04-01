@@ -234,3 +234,26 @@ body {
   font-family: 'Oswald', light, serif;
   font-size: 20px;
 }
+
+.Cake-Menu{
+  margin-top: 80px;
+}
+
+.Cake-Cake-Order{
+  margin-right: 10px;
+}
+
+.Cake-Icing-Order{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Cake-Filling-Order{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Cake-Order-Submit{
+  margin-left: 10px;
+  font-family: 'Oswald', light, serif;
+}

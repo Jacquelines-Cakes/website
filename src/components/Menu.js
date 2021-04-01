@@ -72,6 +72,42 @@ export default class Menu extends Component {
                             <h2 className="Menu-Tag">Decorated to your unique order. Let me help you design your dream cake!</h2>
                         </div>
                     </div>
+                    <div className="Cake-Menu">
+                      <form name="cake-order" action="/menu" method="post">
+                        <label for="cakes" className="Cake-Cake-Order">Choose a Cake:</label>
+                        <select name="cakes" id="cakes">
+                          <option value="---">---</option>
+                          <option value="Yellow Butter Cake">Yellow Butter Cake</option>
+                          <option value="Devils Fudge Cake">Devils Fudge Cake</option>
+                          <option value="White Almond Cake">White Almond Cake</option>
+                          <option value="Salted Caramel Cake">Salted Caramel Cake</option>
+                          <option value="Lemon Poppyseed Cake">Lemon Poppyseed Cake</option>
+                        </select>
+                        <label for="icings" className="Cake-Icing-Order">Choose an Icing:</label>
+                        <select name="icings" id="icings">
+                        <option value="---">---</option>
+                          <option value="Vanilla Buttercream">Vanilla Buttercream</option>
+                          <option value="Chocolate Buttercream">Chocolate Buttercream</option>
+                          <option value="Mocha Buttercream">Mocha Buttercream</option>
+                          <option value="Citrus Buttercream">Citrus Buttercream</option>
+                          <option value="Mint Chocolate Chip Buttercream">Mint Chocolate Chip Buttercream</option>
+                          <option value="Maple Buttercream">Maple Buttercream</option>
+                          <option value="Caramel Buttercream">Caramel Buttercream</option>
+                          <option value="Red Velvet Buttercream">Red Velvet Buttercream</option>
+                          <option value="Cream Cheese Frosting">Cream Cheese Frosting</option>
+                          <option value="Lemon Cream Cheese Frosting">Lemon Cream Cheese Frosting</option>
+                        </select>
+                        <label for="fillings" className="Cake-Filling-Order">Choose a Filling:</label>
+                        <select name="fillings" id="fillings">
+                          <option value="---">---</option>
+                          <option value="Raspberry Jam Filling">Raspberry Jam Filling</option>
+                          <option value="Strawberry Jam Filling">Strawberry Jam Filling</option>
+                          <option value="Blackberry Jam Filling">Blackberry Jam Filling</option>
+                          <option value="Dark Chocolate Ganache">Dark Chocolate Ganache</option>
+                        </select>
+                        <button type="submit" className="Cake-Order-Submit">Submit Cake</button>
+                      </form>
+                    </div>
                 </Jumbotron>
             </div>
         );
