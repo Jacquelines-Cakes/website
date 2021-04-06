@@ -189,6 +189,10 @@ body {
   font-size: 50px;
 }
 
+.Contact-Form{
+  margin-left: 370px;
+}
+
 .Contact-Text {
   font-family: 'Oswald', light, serif;
   font-size: 25px;
@@ -213,26 +217,45 @@ body {
 }
 
 .Contact-Name-Input{
+  border-radius: 51px;
+  margin-right: 5px;
+  font-family: 'Oswald', light, serif;
+  font-size: 20px;
+}
+
+.Contact-Phone{
+  margin-top: 15px;
+  margin-right: 5px;
+  font-family: 'Oswald', light, serif;
+  font-size: 25px;
+}
+
+.Contact-Phone-Input{
+  border-radius: 51px;
   margin-right: 5px;
   font-family: 'Oswald', light, serif;
   font-size: 20px;
 }
 
 .Contact-Email{
+  margin-top: 5px;
   margin-right: 5px;
   font-family: 'Oswald', light, serif;
   font-size: 25px;
 }
 
 .Contact-Email-Input{
+  border-radius: 31px;
   margin-right: 5px;
   font-family: 'Oswald', light, serif;
   font-size: 20px;
 }
 
 .Contact-Submit-Button{
+  border-radius: 51px;
   font-family: 'Oswald', light, serif;
   font-size: 20px;
+  margin-top: 10px;
 }
 
 .Cake-Menu{
