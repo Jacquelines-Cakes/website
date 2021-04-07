@@ -72,7 +72,7 @@ export default class Menu extends Component {
                             <h2 className="Menu-Tag">Decorated to your unique order. Let me help you design your dream cake!</h2>
                         </div>
                     </div>
-                    <div className="Cake-Menu">
+                    <div className="Cake-Menu col-sm-3 col-md-0 col-lrg-4">
                       <form name="cake-order" action="/menu" method="post">
                         <label for="cakes" className="Cake-Cake-Order">Choose a Cake:</label>
                         <select name="cakes" id="cakes">
@@ -105,6 +105,14 @@ export default class Menu extends Component {
                           <option value="Blackberry Jam Filling">Blackberry Jam Filling</option>
                           <option value="Dark Chocolate Ganache">Dark Chocolate Ganache</option>
                         </select>
+                        <label for="Pickup" className="Cake-Pickup">Pickup/Delivery</label>
+                        <select name="Pickup" id="Pickup">
+                        <option value="---">---</option>
+                        <option value="Pickup">Pickup</option>
+                        <option value="Delivery">Delivery</option>
+                        </select>
+                        <label for="Custom" className="Cake-Custom">Customized/Specialty Decorations</label>
+                        <input type="checkbox" id="Custom" name="Custom" value="Custom" className="Custom-Checkbox"/>
                         <button type="submit" className="Cake-Order-Submit">Submit Cake</button>
                       </form>
                     </div>
