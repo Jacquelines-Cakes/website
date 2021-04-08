@@ -72,7 +72,7 @@ export default class Menu extends Component {
                             <h2 className="Menu-Tag">Decorated to your unique order. Let me help you design your dream cake!</h2>
                         </div>
                     </div>
-                    <div className="Cake-Menu col-sm-3 col-md-0 col-lrg-4">
+                    <div className="Cake-Menu">
                       <form name="cake-order" action="/menu" method="post">
                         <label for="cakes" className="Cake-Cake-Order">Choose a Cake:</label>
                         <select name="cakes" id="cakes">
