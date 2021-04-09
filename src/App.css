@@ -217,6 +217,8 @@ body {
 }
 
 .Contact-Name-Input{
+  text-align-last: center;
+  outline: none;
   border-radius: 51px;
   margin-right: 10px;
   font-family: 'Oswald', light, serif;
@@ -231,6 +233,8 @@ body {
 }
 
 .Contact-Phone-Input{
+  text-align-last: center;
+  outline: none;
   border-radius: 51px;
   margin-right: 10px;
   font-family: 'Oswald', light, serif;
@@ -245,6 +249,8 @@ body {
 }
 
 .Contact-Email-Input{
+  text-align-last: center;
+  outline: none;
   border-radius: 31px;
   margin-right: 90px;
   font-family: 'Oswald', light, serif;
@@ -257,6 +263,7 @@ body {
   font-size: 20px;
   margin-top: 10px;
   margin-left: -55px;
+  width: 190px;
 }
 
 .Cake-Menu{
