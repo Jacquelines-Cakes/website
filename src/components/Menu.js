@@ -75,7 +75,7 @@ export default class Menu extends Component {
                     <div className="Cake-Menu">
                       <form name="cake-order" action="/menu" method="post">
                         <label for="cakes" className="Cake-Cake-Order">Choose a Cake:</label>
-                        <select name="cakes" id="cakes">
+                        <select name="cakes" id="cakes" className="Cake-Select-Cakes">
                           <option value="---">---</option>
                           <option value="Yellow Butter Cake">Yellow Butter Cake</option>
                           <option value="Devils Fudge Cake">Devils Fudge Cake</option>
@@ -84,7 +84,7 @@ export default class Menu extends Component {
                           <option value="Lemon Poppyseed Cake">Lemon Poppyseed Cake</option>
                         </select>
                         <label for="icings" className="Cake-Icing-Order">Choose an Icing:</label>
-                        <select name="icings" id="icings">
+                        <select name="icings" id="icings" className="Cake-Select-Icing">
                         <option value="---">---</option>
                           <option value="Vanilla Buttercream">Vanilla Buttercream</option>
                           <option value="Chocolate Buttercream">Chocolate Buttercream</option>
@@ -98,21 +98,21 @@ export default class Menu extends Component {
                           <option value="Lemon Cream Cheese Frosting">Lemon Cream Cheese Frosting</option>
                         </select>
                         <label for="fillings" className="Cake-Filling-Order">Choose a Filling:</label>
-                        <select name="fillings" id="fillings">
+                        <select name="fillings" id="fillings" className="Cake-Select-Filling">
                           <option value="---">---</option>
                           <option value="Raspberry Jam Filling">Raspberry Jam Filling</option>
                           <option value="Strawberry Jam Filling">Strawberry Jam Filling</option>
                           <option value="Blackberry Jam Filling">Blackberry Jam Filling</option>
                           <option value="Dark Chocolate Ganache">Dark Chocolate Ganache</option>
                         </select>
-                        <label for="Pickup" className="Cake-Pickup">Pickup/Delivery</label>
-                        <select name="Pickup" id="Pickup">
+                        <label for="Pickup" className="Cake-Pickup">Pickup/Delivery:</label>
+                        <select name="Pickup" id="Pickup" className="Cake-Select-Pickup">
                         <option value="---">---</option>
                         <option value="Pickup">Pickup</option>
                         <option value="Delivery">Delivery</option>
                         </select>
                         <label for="Custom" className="Cake-Custom">Customized/Specialty Decorations</label>
-                        <input type="checkbox" id="Custom" name="Custom" value="Custom" className="Custom-Checkbox"/>
+                        <input type="checkbox" id="Custom" name="Custom" value="Custom" className="Cake-Custom-Checkbox"/>
                         <button type="submit" className="Cake-Order-Submit">Submit Cake</button>
                       </form>
                     </div>

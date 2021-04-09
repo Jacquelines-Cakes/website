@@ -260,29 +260,69 @@ body {
 }
 
 .Cake-Menu{
-  margin-left: 370px;
+  margin-left: 70px;
   margin-top: 50px;
 }
 
 .Cake-Cake-Order{
   margin-right: 10px;
+  font-family: 'Oswald', light, serif;
+}
+
+.Cake-Select-Cakes{
+  text-align-last: center;
+  border-radius: 51px;
+  width: 171px;
 }
 
 .Cake-Icing-Order{
+  font-family: 'Oswald', light, serif;
   margin-left: 10px;
   margin-right: 10px;
 }
 
+.Cake-Select-Icing{
+  text-align-last: center;
+  border-radius: 51px;
+  width: 230px;
+}
+
 .Cake-Filling-Order{
+  font-family: 'Oswald', light, serif;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.Cake-Select-Filling{
+  text-align-last: center;
+  border-radius: 51px;
+  width: 180px;
 }
 
 .Cake-Pickup{
   margin-top: 10px;
+  margin-right: 10px;
+}
+
+.Cake-Select-Pickup{
+  text-align-last: center;
+  border-radius: 51px;
+  width: 230px;
+}
+
+.Cake-Custom{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Cake-Custom-Checkbox{
+  margin-top: 10px;
+  height: 17px;
+  width: 17px;
 }
 
 .Cake-Order-Submit{
+  border-radius: 51px;
   margin-top: 10px;
   margin-left: 10px;
   font-family: 'Oswald', light, serif;
