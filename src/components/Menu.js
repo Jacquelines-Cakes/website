@@ -72,9 +72,10 @@ export default class Menu extends Component {
                             <h2 className="Menu-Tag">Decorated to your unique order. Let me help you design your dream cake!</h2>
                         </div>
                     </div>
-                    <div className="Cake-Menu">
+                    <div className="Cake-Menu col-10 col-md-6 col-lg-4">
+                      <p></p>
                       <form name="cake-order" action="/menu" method="post" className="Cake-Order-Form">
-                        <label for="cakes" className="Cake-Cake-Order">Choose a Cake:</label>
+                        <label for="cakes" className="Cake-Cake-Order">Choose a Cake Flavor:</label>
                         <select name="cakes" id="cakes" className="Cake-Select-Cakes">
                           <option value="---">---</option>
                           <option value="Yellow Butter Cake">Yellow Butter Cake</option>
@@ -97,7 +98,7 @@ export default class Menu extends Component {
                           <option value="Cream Cheese Frosting">Cream Cheese Frosting</option>
                           <option value="Lemon Cream Cheese Frosting">Lemon Cream Cheese Frosting</option>
                         </select>
-                        <label for="fillings" className="Cake-Filling-Order">Choose a Filling:</label>
+                        <label for="fillings" className="Cake-Filling-Order">Choose a Filling Flavor:</label>
                         <select name="fillings" id="fillings" className="Cake-Select-Filling">
                           <option value="---">---</option>
                           <option value="Raspberry Jam Filling">Raspberry Jam Filling</option>
