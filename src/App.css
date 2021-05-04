@@ -189,6 +189,10 @@ body {
   font-size: 50px;
 }
 
+.Contact-Form{
+  margin-left: 35px;
+}
+
 .Contact-Text {
   font-family: 'Oswald', light, serif;
   font-size: 25px;
@@ -204,4 +208,141 @@ body {
 
 .Contact-Icon {
   height: 40px;
+}
+
+.Contact-Name{
+  margin-right: 5px;
+  font-family: 'Oswald', light, serif;
+  font-size: 25px;
+}
+
+.Contact-Name-Input{
+  text-align-last: center;
+  outline: none;
+  border-radius: 51px;
+  margin-right: 10px;
+  font-family: 'Oswald', light, serif;
+  font-size: 20px;
+}
+
+.Contact-Phone{
+  margin-top: 15px;
+  margin-right: 5px;
+  font-family: 'Oswald', light, serif;
+  font-size: 25px;
+}
+
+.Contact-Phone-Input{
+  text-align-last: center;
+  outline: none;
+  border-radius: 51px;
+  margin-right: 10px;
+  font-family: 'Oswald', light, serif;
+  font-size: 20px;
+}
+
+.Contact-Email{
+  margin-top: 5px;
+  margin-right: 5px;
+  font-family: 'Oswald', light, serif;
+  font-size: 25px;
+}
+
+.Contact-Email-Input{
+  text-align-last: center;
+  outline: none;
+  border-radius: 31px;
+  margin-right: 90px;
+  font-family: 'Oswald', light, serif;
+  font-size: 20px;
+}
+
+.Contact-Submit-Button{
+  border-radius: 51px;
+  font-family: 'Oswald', light, serif;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: -55px;
+  width: 190px;
+}
+
+.Cake-Menu{
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.Cake-Cake-Order{
+  margin-left: 20px;
+  margin-right: 10px;
+  font-family: 'Oswald', light, serif;
+}
+
+.Cake-Select-Cakes{
+  text-align-last: center;
+  outline: none;
+  border-radius: 30px;
+  width: 230px;
+}
+
+.Cake-Icing-Order{
+  font-family: 'Oswald', light, serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.Cake-Select-Icing{
+  text-align-last: center;
+  outline: none;
+  border-radius: 30px;
+  width: 230px;
+}
+
+.Cake-Filling-Order{
+  font-family: 'Oswald', light, serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.Cake-Select-Filling{
+  text-align-last: center;
+  outline: none;
+  border-radius: 30px;
+  width: 230px;
+}
+
+.Cake-Pickup{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Cake-Select-Pickup{
+  text-align-last: center;
+  outline: none;
+  border-radius: 30px;
+  width: 230px;
+}
+
+.Cake-Custom{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.Cake-Custom-Checkbox{
+  margin-top: 10px;
+  outline: none;
+  height: 17px;
+  width: 17px;
+}
+
+.Cake-Order-Submit{
+  border-radius: 30px;
+  outline: none;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: 'Oswald', light, serif;
+  background-color: rgb(255, 255, 255);
 }

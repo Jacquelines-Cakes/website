@@ -72,6 +72,51 @@ export default class Menu extends Component {
                             <h2 className="Menu-Tag">Decorated to your unique order. Let me help you design your dream cake!</h2>
                         </div>
                     </div>
+                    <div className="Cake-Menu col-10 col-md-6 col-lg-4">
+                      <p></p>
+                      <form name="cake-order" action="/menu" method="post" className="Cake-Order-Form">
+                        <label for="cakes" className="Cake-Cake-Order">Choose a Cake Flavor:</label>
+                        <select name="cakes" id="cakes" className="Cake-Select-Cakes">
+                          <option value="---">---</option>
+                          <option value="Yellow Butter Cake">Yellow Butter Cake</option>
+                          <option value="Devils Fudge Cake">Devils Fudge Cake</option>
+                          <option value="White Almond Cake">White Almond Cake</option>
+                          <option value="Salted Caramel Cake">Salted Caramel Cake</option>
+                          <option value="Lemon Poppyseed Cake">Lemon Poppyseed Cake</option>
+                        </select>
+                        <label for="icings" className="Cake-Icing-Order">Choose an Icing:</label>
+                        <select name="icings" id="icings" className="Cake-Select-Icing">
+                        <option value="---">---</option>
+                          <option value="Vanilla Buttercream">Vanilla Buttercream</option>
+                          <option value="Chocolate Buttercream">Chocolate Buttercream</option>
+                          <option value="Mocha Buttercream">Mocha Buttercream</option>
+                          <option value="Citrus Buttercream">Citrus Buttercream</option>
+                          <option value="Mint Chocolate Chip Buttercream">Mint Chocolate Chip Buttercream</option>
+                          <option value="Maple Buttercream">Maple Buttercream</option>
+                          <option value="Caramel Buttercream">Caramel Buttercream</option>
+                          <option value="Red Velvet Buttercream">Red Velvet Buttercream</option>
+                          <option value="Cream Cheese Frosting">Cream Cheese Frosting</option>
+                          <option value="Lemon Cream Cheese Frosting">Lemon Cream Cheese Frosting</option>
+                        </select>
+                        <label for="fillings" className="Cake-Filling-Order">Choose a Filling Flavor:</label>
+                        <select name="fillings" id="fillings" className="Cake-Select-Filling">
+                          <option value="---">---</option>
+                          <option value="Raspberry Jam Filling">Raspberry Jam Filling</option>
+                          <option value="Strawberry Jam Filling">Strawberry Jam Filling</option>
+                          <option value="Blackberry Jam Filling">Blackberry Jam Filling</option>
+                          <option value="Dark Chocolate Ganache">Dark Chocolate Ganache</option>
+                        </select>
+                        <label for="Pickup" className="Cake-Pickup">Pickup/Delivery:</label>
+                        <select name="Pickup" id="Pickup" className="Cake-Select-Pickup">
+                        <option value="---">---</option>
+                        <option value="Pickup">Pickup</option>
+                        <option value="Delivery">Delivery</option>
+                        </select>
+                        <label for="Custom" className="Cake-Custom">Customized/Specialty Decorations</label>
+                        <input type="checkbox" id="Custom" name="Custom" value="Custom" className="Cake-Custom-Checkbox"/>
+                        <button type="submit" className="Cake-Order-Submit">Submit Cake</button>
+                      </form>
+                    </div>
                 </Jumbotron>
             </div>
         );
